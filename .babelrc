@@ -1,0 +1,15 @@
+// en este archivo se crea un objeto con todas la configuraciones con 
+//las herramientas de babel que instalamos
+// osea @babel/core @babel/preset-env @babel/preset-react babel-loader
+
+//creamos el objeto:
+//llamamos los presets
+{
+    "presets":[
+        //sirve para trabajar con emacscript 5 y 6
+        "@babel/preset-env",
+        //sirve para trabajar con jsx y react
+        "@babel/preset-react"
+    ]
+}
+
