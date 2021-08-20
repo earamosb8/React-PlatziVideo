@@ -7,7 +7,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 //utilizamos react-dom para pasar el componente que queremos renderizar en le navegador
-import HelloWorld from './components/HelloWorld'
+import App from './containers/App'
 
 //render recibe 2 parametros = el componente y donde voy a empujar este componente
-ReactDom.render(<HelloWorld/>,document.getElementById('app'))
+ReactDom.render(<App/>,document.getElementById('app'))
